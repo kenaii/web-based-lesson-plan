@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Орон сууцны конторын дуудлага бүртгэлийн систем</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container">
+    <div class="col-md-3 sidebar">
+      <div class="col-md-12 profile">        
+        <div class="col-md-4">
+          <center><img src="images/2.jpg" class="profile-image" /></center>
+        </div>
+        <div class="col-md-8">
+          <div class="user-title">
+            <span><b>Сүхбаатар Сугарсүх</b></span></br>
+            <span>Системийн Администратор</span>
+          </div>
+        </div>
+      </div>
+      <div class="drop-menu-btn">Үндсэн цэс<span class="glyphicon glyphicon-menu-hamburger" style="float:right;"></span></div>
+      <div class="col-md-12 menu">
+        <ul>
+          <li><a href="#"><img src="images/icon-1.png" class="icon">Хувийн мэдээлэл</a></li>
+          <li><a href="#"><img src="images/icon-2.png" class="icon">Ажилтан бүртгэл</a></li>
+          <li><a href="#"><img src="images/icon-3.png" class="icon">Оршин суугч бүртгэл</a></li>
+          <li><a href="#"><img src="images/icon-4.png" class="icon">Дуудлага бүртгэл</a></li>
+          <li><a href="#"><img src="images/icon-5.png" class="icon">Үйлчилгээ</a></li>
+          <li class="active"><a href="#"><img src="images/icon-6.png" class="icon">Тайлан</a></li>
+        </ul>
+      </div>    
+    </div>
+    <div class="col-md-9 content">      
+      <div class="col-md-12 content-header-line">
+      <div class="col-md-8 head-title"><b>Орон сууцны конторын дуудлага бүртгэлийн систем</b></div>
+      <div class="col-md-4 head-settings text-right">
+        15:27 <span class="silvertxt">AM &nbsp;&nbsp;|&nbsp;&nbsp;</span> 12 <span class="silvertxt">3-Сар 2015</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Settings" name="" title="Тохиргоо" class="Set_icon" />
+        <input type="submit" value="LogOut" name="" title="Гарах" class="Log_icon" />
+      </div>
+      </div>
+
+      <div class="col-md-12 content-profile">
+        <div class="col-md-2">
+          <img src="images/2.jpg" class="profile-image-content" />
+        </div>
+        <div class="col-md-10">
+           <div class="user-title-pro">
+            <span class="user-title-pro-s1">Сүхбаатар Сугарсүх</span></br>
+            <span class="user-title-pro-s2">Зэрэглэл &nbsp;&nbsp;&nbsp;<b>Администратор</b></span></br>
+            <span class="user-title-pro-s3">Мэдээлэл Холбоо Технологийн сургууль</span></br>
+          </div>
+        </div>
+
+      <div class="col-md-12 content-menu">      
+        <ul>
+          <li class="active"><a href="#">Тайлан хэвлэх</a></li>
+          <li><a href="#">Системээс гарах</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      </div>
+            
+      <div class="col-md-11 call-tailan">
+          <div class="call-tailan-cont">
+              <center>
+                  <img src="images/tailan-icon.png" /></br></br>
+                  <input type="submit" value="нийт мэдээлэл хэвлэх" title="Нийт мэдээлэл хэвлэх" class="tailan-btn" /></br></br>
+                  <input type="submit" value="он сараар хэвлэх" title="Он сараар хэвлэх" class="tailan-btn" /></br></br>
+                  <a href="#">ТАЙЛАН ХАРАХ</a>
+              </center>
+          </div>
+      </div>
+
+    </div>
+
+    </div>
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.drop-menu-btn').click(function(){
+        $('.menu').slideToggle();
+      });
+      });
+    </script>
+  </body>
+</html>

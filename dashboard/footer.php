@@ -1,0 +1,11 @@
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.drop-menu-btn').click(function(){
+        $('.menu').slideToggle();
+      });
+      });
+    </script>
+  </body>
+</html>
